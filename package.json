@@ -1,0 +1,23 @@
+{
+  "name": "getlang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js --s getlang > dist/getlang.js",
+    "test": "xo --fix && ava test/unicorn.js  --verbose"
+  },
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "franc-min": "*",
+    "iso-639-3": "*"
+  },
+  "author": "Arthur Lacoste <arthak@gmail.com>",
+  "description": "Detect a lang from a string.",
+  "bugs": {
+    "url": "https://github.com/arthurlacoste/getlang/issues"
+  },
+  "homepage": "https://github.com/arthurlacoste/getlang",
+  "devDependencies": {
+    "ava": "*"
+  }
+}
