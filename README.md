@@ -2,7 +2,7 @@
 
 # getlang
 
-Get ISO 639-1 version of a string. Without any API. This less accurate than Google translate, but faster! :)
+Get ISO 639-1 version of a string. Without any API. This is less accurate than Google translate, but faster! :)
 
 ##  Install
 
@@ -14,7 +14,7 @@ npm install getlang -S
 
 ```js
 
-const getlang =  require('getlang')
+const getlang =  require('getlang');
 
 const result = getlang('手を切り落としたら砂金が溢れ出るとか神話とかにありそう');
 console.log(result);
