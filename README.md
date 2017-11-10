@@ -8,6 +8,8 @@
 
 Get ISO 639-1 version of a string. Without any API. This is less accurate than Google translate, but faster! :)
 
+![demo](static/demo.gif)
+
 ##  Install
 
 ```
