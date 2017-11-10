@@ -1,6 +1,10 @@
 
 
-# getlang
+# Get lang
+
+[![NPM Version][npm-version]][npm-url]
+[![travis][travis-badge]][travis-url]
+[![xo][xo-badge]][xo-url]
 
 Get ISO 639-1 version of a string. Without any API. This is less accurate than Google translate, but faster! :)
 
@@ -44,3 +48,10 @@ Server version:
 Side Projects:
 - [Mastodon Lang Remover](https://github.com/arthurlacoste/mastodon-lang-remover)
 - [Franc](https://github.com/wooorm/franc)
+
+[npm-version]:https://img.shields.io/npm/v/getlang.svg
+[npm-url]: https://npmjs.org/package/getlang
+[travis-badge]: http://img.shields.io/travis/arthurlacoste/getlang.svg
+[travis-url]: https://travis-ci.org/arthurlacoste/getlang
+[xo-badge]: https://img.shields.io/badge/code_style-XO-5ed9c7.svg
+[xo-url]: https://github.com/sindresorhus/xo
